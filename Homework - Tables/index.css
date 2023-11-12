@@ -1,0 +1,27 @@
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+
+.aqua {
+  background-color: lightblue;
+}
+
+.circle {
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  margin: 1px;
+  line-height: 50px;
+  text-align: center;
+}
