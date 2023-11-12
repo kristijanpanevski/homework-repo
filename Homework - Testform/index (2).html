@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testform</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Testform</legend>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" />
+        <br />
+        <br />
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+        <br />
+        <p>
+          Gender
+          <input type="radio" name="gender" value="male" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" value="female" id="female" />
+          <label for="female">Female</label>
+        </p>
+        <label for="continent">Continent</label>
+        <select name="continent" id="continentces">
+          <option value="" disabled selected>Please Select</option>
+          <option value="africa">Africa</option>
+          <option value="europe">Europe</option>
+          <option value="southamerica">South America</option>
+          <option value="northamerica">North America</option>
+          <option value="australia">Australia</option>
+          <option value="antartica">Antartica</option>
+          <option value="asia">Asia</option>
+        </select>
+        <p>
+          Meals
+          <input
+            type="checkbox"
+            name="meals"
+            value="breakfast"
+            id="breakfast"
+          />
+          <label for="breakfast">Breakfast</label>
+          <input type="checkbox" name="meals" value="lunch" id="lunch" />
+          <label for="breakfast">Lunch</label>
+          <input type="checkbox" name="meals" value="dinner" id="dinner" />
+          <label for="dinner">Dinner</label>
+        </p>
+        <label for="comment">Remark</label>
+        <textarea name="comment" id="comment" cols="20" rows="4"></textarea>
+      </fieldset>
+
+      <button type="reset">Cancel</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
