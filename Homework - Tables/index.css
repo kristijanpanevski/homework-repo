@@ -15,7 +15,13 @@
   background-color: lightblue;
 }
 
+.border {
+  border: 3px solid black;
+  padding: 8px;
+  width: fit-content;
+}
 .circle {
+  font-size: 12px;
   display: block;
   height: 50px;
   width: 50px;
