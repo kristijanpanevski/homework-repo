@@ -19,7 +19,7 @@ body {
 /* Home header */
 
 .home-header {
-  background-image: url(/assets/photos/ourTeam-background_upscaled.jpg);
+  background-image: url(../assets/photos/ourTeam-background_upscaled.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 350px;

@@ -60,15 +60,6 @@ ol {
 
 /* General Title */
 
-/* @media (max-width: 768px) {
-  .home-title h1 {
-    background-image: url(../assets/photos/heroimage_upscaled.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    font-size: 2rem;
-  }
-} */
-
 .home-title {
   background-image: url(../assets/photos/heroimage_upscaled.jpg);
   background-repeat: no-repeat;
